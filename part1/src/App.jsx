@@ -14,12 +14,12 @@ const App = () => {
   const age = 10;
 
   return (
-    <div>
+    <>
       <p>Hello world, it is {now.toString()}</p>
       <Hello name="hi" />
       <Hello name="Maya" age={26 + 10} />
       <Hello name={name} age={age} />
-    </div>
+    </>
   );
 };
 export default App;
