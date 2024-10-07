@@ -3,7 +3,9 @@ const Excercises = (props) => {
     <>
       <p>
         Number of exercises{" "}
-        {props.exercises1 + props.exercises2 + props.exercises3}
+        {props.parts[0].excercises +
+          props.parts[1].excercises +
+          props.parts[2].excercises}
       </p>
     </>
   );
